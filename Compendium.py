@@ -1,4 +1,4 @@
-# Associates part to number and number to part
+# Associates name with code and code with name
 hardwareList = {"276-1028-001": "8-32 nut", "8-32 nut": "276-1028-001", "276-4991-001": "8-32*.375 in screw", "8-32 .375 screw": "276-4991-001", "276-5007-001": "8-32*.5 in screw", "276-4996-001": "8-32*1 in screw", "8-32*1 in screw": "276-4996-001"}
 electricalList = {"276-4810": "Brain", "brain": "276-4810", "276-4840": "Reg. Servo Motor", "motor": "276-4840", "276-4811": "battery", "battery": "276-4611", "276-4831": "Transmitter", "Transmitter": "276-4831"}
 constructionList = {"test": "test"}
@@ -56,7 +56,7 @@ while True:
         
 
     
- 
+# Basic commands 
         elif x == "change mode":
              break
                 
