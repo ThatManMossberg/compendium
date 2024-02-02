@@ -34,7 +34,7 @@ while True:
 #? Allows user to see what each mode does
                 #Working on it, I promise
         
-        if mode == "mode?":
+        elif mode == "mode?":
             print("Enter hardware, electrical, construction, or change mode")
             print("")
             x = str(input())
@@ -52,16 +52,14 @@ while True:
             x = str(input())
             if x == "change mode":
                 break
-
+            
         
 
     
 # Basic commands 
         elif x == "change mode":
-             break
+                 break
                 
-        elif mode == "Stop":
+        elif mode == "stop":
             quit()
-        else:
-            print("Not registered")
-            print("")
+     
